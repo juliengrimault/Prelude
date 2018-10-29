@@ -1,0 +1,38 @@
+# swiftlint configuration.
+
+disabled_rules: # rule identifiers to exclude from running
+ - identifier_name
+ - line_length
+ - trailing_comma
+ - type_name 
+
+number_separator:
+  minimum_length: 5
+
+large_tuple:
+  error: 5
+  warning: 4
+
+trailing_whitespace:
+  ignores_empty_lines: true
+
+opt_in_rules:
+ - attributes
+
+ - closure_end_indentation
+ - closure_spacing
+
+ - empty_count
+ - explicit_init
+
+ - first_where
+
+ - nimble_operator
+ - number_separator
+
+ - overridden_super_call
+ - operator_usage_whitespace
+ - object_literal
+ - prohibited_super_call
+
+ - redundant_nil_coalescing

@@ -52,7 +52,6 @@ class TaggedTests: XCTestCase {
     }
 }
 
-
 private let usersJSON = """
 [
     {
